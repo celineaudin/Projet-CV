@@ -1,0 +1,95 @@
+@font-face{
+    font-family:'Newsreader';
+    src: url('/home/celine/EXERCICES/HTML_CSS/Projet_CV/Newsreader-VariableFont_opsz,wght.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+  background: #CCCCCC;
+  color: #181818;
+  font-size:1.3em;
+  border: 50px #009999 double;
+  margin: 60px 60px 60px 60px;
+  padding: 60px 100px 60px 100px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav li{
+  margin-right: 30px;
+}
+nav a{
+    font-size: 1.3em;
+    color:#181818;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #009999;
+    border-bottom: 3px solid #009999;
+}
+
+img{
+    float: left;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+    margin: 40px;
+}
+.self{
+  color: #009999;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 100px;
+}
+.name{
+  margin-left: 40px;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+}
+
+.adresse, .email, .tel{
+  color: #181818;
+  list-style-type: none;
+}
+.social img{
+	width:25px;
+	height:25px;
+}
+
+.entry{
+  clear:both;
+}
+
+h2{
+  color: #009999;
+  margin: 60px 40px 40px 40px;
+}
+
+h3{
+  color: #009999;
+  margin-left: 40px;
+  margin-top: -10px;
+  font-size: 1em;
+}
+
+p{
+  margin: -45px 40px 80px 370px;
+}
+
+.info{
+  margin: -45px 40px 80px 350px;
+}
+
+.compétences{
+    margin: -45px 40px 80px 350px;
+}
