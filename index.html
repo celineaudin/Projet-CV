@@ -9,9 +9,9 @@
     <header>
       <nav>
       <ul>
-        <li><a href="#">MES COMPÉTENCES</a></li>
-        <li><a href="#">MES EXPÉRIENCES PROFESSIONNELLES</a></li>
-        <li><a href="#">MES FORMATIONS</a></li>
+        <li><a href="#EDUCATION">MON ÉDUCATION</a></li>
+        <li><a href="#EXPÉRIENCESPROFESSIONNELLES">MES EXPÉRIENCES PROFESSIONNELLES</a></li>
+        <li><a href="#COMPÉTENCES">MES COMPÉTENCES</a></li>
       </ul>
       </nav>
     </header>
@@ -23,9 +23,9 @@
     <div id="paper">
       <div class="paper-top"></div>
     <div id="paper-mid">
-      <div class="entry"></div>
+      <div class="entrée"></div>
     <!-- Image starts here -->
-      <img class="portait" src="/home/celine/EXERCICES/HTML_CSS/Projet_CV/ID_pic.JPG" alt="Photo Céline Audin">
+    <img class="portait" src="/home/celine/EXERCICES/HTML_CSS/Projet_CV/ID_pic.JPG" alt="Photo Céline Audin">
     <!-- Personnal info starts here -->
     <div class="self">
       <h1 class="name">CÉLINE AUDIN<br>
@@ -38,69 +38,70 @@
     </div>
     <!-- Social starts here -->
     <div class="social">
-      <ul>
-        <li><a class='nord' href="#" title="Download.pdf"><img src="/home/celine/EXERCICES/HTML_CSS/Projet_CV/green/images/icn-save.jpg" alt="Download the pdf version" id="download"></a></li>
-        <li><a class='nord' href="javascript:window.print()" title="Print"><img src="/home/celine/EXERCICES/HTML_CSS/Projet_CV/green/images/icn-print.jpg" alt="" id="print"></a></li>
-        <li><a class='nord' href="contact/index.html" title="Contact Me"><img src="/home/celine/EXERCICES/HTML_CSS/Projet_CV/green/images/icn-contact.jpg" alt="logoenveloppe" id="contact"></a></li>
-        <li><a class='nord' href="#" title="Follow me on Twitter"><img src="/home/celine/EXERCICES/HTML_CSS/Projet_CV/green/images/icn-twitter.jpg" alt="logotwitter" id="logotwitter"></a></li>
-        <li><a class='nord' href="#" title="My LinkedIn Profile"><img src="/home/celine/EXERCICES/HTML_CSS/Projet_CV/174834-social-media-logos/png/027-linkedin.png" alt="logolinkedin" id="logolinkedin"></a></li>
-        <li><a class='nord' href="#" title="My GitHub Profile"><img src="/home/celine/EXERCICES/HTML_CSS/Projet_CV/GitHub-Mark/PNG/GitHub-Mark-32px.png" alt="logogithub" id="logogithub"></a></li>
-        </ul>
-      </div>
+      <a class='nord' href="#" title="Télécharger.pdf"><img src="/home/celine/EXERCICES/HTML_CSS/Projet_CV/green/images/icn-save.jpg" alt="logotélécharger" id="télécharger"></a>
+      <a class='nord' href="javascript:window.print()" title="Imprimer"><img src="/home/celine/EXERCICES/HTML_CSS/Projet_CV/green/images/icn-print.jpg" alt="logoimprimer" id="imprimer"></a>
+      <a class='nord' href="file:///home/celine/EXERCICES/HTML_CSS/Projet_CV/contactform.html" title="Contactez-moi"><img src="/home/celine/EXERCICES/HTML_CSS/Projet_CV/green/images/icn-contact.jpg" alt="logoenveloppe" id="contact"></a>
+      <a class='nord' href="https://twitter.com/AudinCeline" title="Suivez-moi sur Twitter"><img src="/home/celine/EXERCICES/HTML_CSS/Projet_CV/green/images/icn-twitter.jpg" alt="logotwitter" id="logotwitter"></a>
+      <a class='nord' href="https://github.com/celineaudin" title="Mon profile GitHub"><img src="/home/celine/EXERCICES/HTML_CSS/Projet_CV/GitHub-Mark/PNG/GitHub-Mark-32px.png" alt="logogithub" id="logogithub"></a>
+    </div>
       <!--1st row starts here -->
       <div class="entry">
         <h2>OBJECTIF</h2>
-        <p>Je suis à la recherche d'un stage en développement web à partir de juillet 2021</p>
+        <p>Trilingue, anglais, français et italien, en formation, je suis à la recherche d'un stage en développement web à partir de juillet 2021.</p>
       </div>
       <!--2nd row starts here -->
       <div class="entry">
-        <h2>EDUCATION</h2>
+        <h2 id="EDUCATION">EDUCATION</h2>
         <div class="content">
-          <h3>Février - Décembre 2021</h3>
-          <p>Centre de Formation DesCodeuses, Paris<br>
-          <em>Certification Développeuse Web</em></p>
-          <h3>Septembre 1999 - Juin 2004</h3>
-          <p> McGill University, Montrééal<br>
+          <h3>Depuis Février 2021</h3>
+          <p><strong>Centre de Formation DesCodeuses, Paris</strong><br>
+          <em>En formation pour obtenir la certification Développeuse Web</em></p>
+          <h3>Juin 2003</h3>
+          <p><strong>McGill University, Montréal</strong><br>
           <em>Bachelor of Commerce</em></p>
           <h3>Juin 1999</h3>
-          <p>Lycée Chateaubriand, Rome<br>
+          <p><strong>Lycée Chateaubriand, Rome></strong><br>
           <em>Baccalauréat en Sciences Economiques et Sociales</em></p>
         </div>
       </div>
       <!-- 3rd row starts here -->
       <div class="entry">
-        <h2>EXPÉRIENCES PROFESSIONNELLES</h2>
+        <h2 id="EXPÉRIENCESPROFESSIONNELLES">EXPÉRIENCES PROFESSIONNELLES</h2>
         <div class="content">
-      <h3>Aout - Décembre 2015</h3>
-        <p>OR Communication<br>
-         <em>Web Editor</em></p>
+      <h3>Juin - Décembre 2015</h3>
+        <p><strong>OR Communication</strong><br>
+         <em>Attachée de Presse</em></p>
          <ul class="info">
-              <li>Vestibulum eu ante massa, sed rhoncus velit.</li>
-              <li>Pellentesque at lectus in <a href="#">libero dapibus</a> cursus. Sed arcu ipsum, varius at ultricies acuro, tincidunt iaculis diam.</li>
-            </ul>
-          </div>
+              <li>Rédaction et envoi aux médias des communiqués de presse;</li>
+              <li>Mise à jour du fichier média;</li>
+              <li>Organisation et suivi des sujets;</li>
+              <li>Mise en ligne des retombées presse;</li>
+              <li>Mise à jour du Wikipédia et du site internet;</li>
+              <li>Production de contenu pour les réseaux sociaux;</li>
+              <li>Elaboration du dossier de presse et traductions en anglais.</li>
+          </ul>
         <div class="content">
-      <h3>Novembre 2013 - Avril 2014</h3>
-        <p>Programme Alimentaire Mondial<br>
-         <em>Web Editor</em></p>
+      <h3>Octobre 2013 - Avril 2014</h3>
+        <p><strong>Programme Alimentaire Mondial</strong><br>
+         <em>Web et Social Media Editor</em></p>
          <ul class="info">
-              <li>Vestibulum eu ante massa, sed rhoncus velit.</li>
-              <li>Pellentesque at lectus in <a href="#">libero dapibus</a> cursus. Sed arcu ipsum, varius at ultricies acuro, tincidunt iaculis diam.</li>
+              <li>Production de contenu pour le site web francophone, gestion des réseaux sociaux et des initiatives de collecte de fonds en ligne;</li>
+              <li>En charge de la traduction des communiqués de presse, des articles web et du contenu en ligne de collecte de fonds.</li>
             </ul>
           </div>
           <div class="content">
-            <h3>Juin 2008 - Mars 2013</h3>
-            <p>Learneo<br />
-              <em>Web Editor</em></p>
+            <h3>Juin 2009 - Mars 2013</h3>
+            <p><strong>Learneo</strong><br />
+              <em>Web et Social Media Editor</em></p>
             <ul class="info">
-              <li>Sed fermentum sollicitudin interdum. Etiam imperdiet sapien in dolor rhoncus a semper tortor posuere. </li>
-              <li>Pellentesque at lectus in libero dapibus cursus. Sed arcu ipsum, varius at ultricies acuro, tincidunt iaculis diam.</li>
+              <li>Production de contenu pour les réseaux sociaux et le site internet;</li>
+              <li>Traduction des descriptifs de cours.</li>
             </ul>
           </div>
         </div>
         <!-- 4th row starts here -->
         <div class="entry">
-          <h2>COMPÉTENCES</h2>
+          <h2 id="COMPÉTENCES">COMPÉTENCES</h2>
           <div class="content">
           <Ul class="compétences">
         <li>HTML5</li>
@@ -108,6 +109,8 @@
         <li>LIGNE DE COMMANDE-TERMINAL LINUX</li>
         <li>GIT/GITHUB</li>
         <li>OFFICE 365 MICROSOFT</li>
+        <li>SAGE/GESCOF</li>
+        <li>SAP/WINGS</li>
       </ul>
     </div>
     </div>
